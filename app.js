@@ -3,7 +3,7 @@ const app = express();
 app.get("/", (req, res) => {
     res.json({
         status: "alive",
-        message: "hello world",
+        message: "hello world to all",
         time: new Date().toISOString()
     });
 } );
